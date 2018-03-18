@@ -30,5 +30,9 @@ $secondArg = $argv[3];
         default: echo "Erreur !! Ceci n'est pas un signe \n";
             }
     }
-    print "Votre resultat est ".$result.".\n";
+    if ($result == INF)//$result == INF seulement si on divise par 0
+    {
+        print "On ne divise pas un nombre par 0\n";}
+    else{
+    print "Votre resultat est ".$result.".\n";}
 ?>

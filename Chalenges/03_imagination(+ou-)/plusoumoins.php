@@ -4,9 +4,9 @@ $nombreEssaiPrevu=$argv[2];
 
 var_dump($nombreEssaiPrevu);
 
-do {
+//do {
 
-
+            for($nombreEssai=0;$victory=true;$nombreEssai++){
             var_dump($nombreEssai);
             $testvalue = readline(" votre proposition: ");
             readline_add_history($testvalue);
@@ -32,9 +32,9 @@ do {
 
                     break;}
 
-} while($victory == false);
+//} while($victory == false);
 
-
+}
     print "Bravo vous avez gagner en ".$nombreEssai.".\n";
 
 
