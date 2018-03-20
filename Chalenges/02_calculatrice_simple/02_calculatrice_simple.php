@@ -22,7 +22,7 @@ $secondArg = $argv[3];
         case '-':
             $result = $firstArg - $secondArg;
             break;
-        case '*':
+        case 'x':
             $result = $firstArg * $secondArg;
             break;
         case '/':
