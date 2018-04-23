@@ -1,0 +1,21 @@
+{
+    "name": "composer-test",
+    "description": "Test de composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "tentacode",
+            "email": "contact@gabrielpillet.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

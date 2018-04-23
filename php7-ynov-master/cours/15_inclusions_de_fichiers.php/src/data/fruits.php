@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'banane',
+    'kiwis',
+];
